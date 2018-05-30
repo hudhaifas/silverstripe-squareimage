@@ -20,6 +20,6 @@
         "silverstripe/vendor-plugin": "^1.0"
     },
     "extra": {
-        "installer-name": "squareimage",
+        "installer-name": "squareimage"
     }
 }
