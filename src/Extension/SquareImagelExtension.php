@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-namespace HudhaifaS\DOM\Extension;
+namespace HudhaifaS\Image\Extension;
 
 use Intervention\Image\Constraint;
 use SilverStripe\Assets\Image_Backend;

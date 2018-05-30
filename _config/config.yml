@@ -4,8 +4,8 @@ Name: squareimage
 
 SilverStripe\Assets\Image:
   extensions:
-    - HudhaifaS\DOM\Extension\SquareImagelExtension
+    - HudhaifaS\Image\Extension\SquareImagelExtension
     
 SilverStripe\Assets\Storage\DBFile:
   extensions:
-    - HudhaifaS\DOM\Extension\SquareImagelExtension
+    - HudhaifaS\Image\Extension\SquareImagelExtension
