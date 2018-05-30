@@ -1,0 +1,25 @@
+{
+    "name": "hudhaifas/silverstripe-squareimage",
+    "description": "Show the progress of the data completion.",
+    "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/hudhaifas/silverstripe-squareimage",
+    "keywords": ["silverstripe", "image", "square", "fit", "pad"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hudhaifa Shatnawi",
+            "email": "me@hudhaifa.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hudhaifas/silverstripe-squareimage/issues"
+    },
+    "require": {
+        "silverstripe/framework": "^4",
+        "silverstripe/cms": "^4",
+        "silverstripe/vendor-plugin": "^1.0"
+    },
+    "extra": {
+        "installer-name": "squareimage",
+    }
+}

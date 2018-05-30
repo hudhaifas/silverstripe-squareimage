@@ -1,0 +1,11 @@
+---
+Name: squareimage
+---
+
+SilverStripe\Assets\Image:
+  extensions:
+    - HudhaifaS\DOM\Extension\SquareImagelExtension
+    
+SilverStripe\Assets\Storage\DBFile:
+  extensions:
+    - HudhaifaS\DOM\Extension\SquareImagelExtension
