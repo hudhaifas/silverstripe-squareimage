@@ -21,5 +21,7 @@
     },
     "extra": {
         "installer-name": "squareimage"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
