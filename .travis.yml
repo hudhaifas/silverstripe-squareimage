@@ -2,7 +2,7 @@ language: php
 
 env:
   global:
-    - COMPOSER_ROOT_VERSION=4.2.x-dev
+    - COMPOSER_ROOT_VERSION=2.0.x-dev
 
 matrix:
   include:
@@ -16,11 +16,11 @@ matrix:
       env: DB=MYSQL PHPUNIT_TEST=1
 
 before_script:
-# Init PHP
+  # Init PHP
   - phpenv rehash
   - phpenv config-rm xdebug.ini
 
-# Install composer dependencies
+  # Install composer dependencies
   - composer validate
   - composer require --no-update silverstripe/recipe-cms:1.0.x-dev
   - composer install --prefer-dist --no-interaction --no-progress --no-suggest --optimize-autoloader --verbose --profile
