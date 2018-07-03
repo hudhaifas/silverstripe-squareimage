@@ -1,6 +1,6 @@
 {
     "name": "hudhaifas/silverstripe-squareimage",
-    "description": "Show the progress of the data completion.",
+    "description": "Manipulates a square image with the background color extracted from the image itself.",
     "type": "silverstripe-vendormodule",
     "homepage": "https://github.com/hudhaifas/silverstripe-squareimage",
     "keywords": ["silverstripe", "image", "square", "fit", "pad"],
